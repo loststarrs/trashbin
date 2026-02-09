@@ -1,0 +1,37 @@
+import java.util.*;
+public class Login{
+public static void main(String[]args){
+Scanner sc = new Scanner(System.in);
+System.out.println("enter name");
+String name = sc.nextLine();
+System.out.println("enter pass");
+String pass = sc.nextLine();
+if(name.equals("admin")&&pass.equals()
+
+}
+
+
+}
+
+
+
+
+
+FROM openjdk:17
+
+WORKDIR /app
+
+COPY LoginApp.java .
+
+RUN javac LoginApp.java
+
+CMD ["java", "LoginApp"]
+
+
+
+
+
+
+
+
+
